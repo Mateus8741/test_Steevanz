@@ -1,0 +1,43 @@
+main[type="lg"] {
+  display: flex;
+  align-items: flex-end;
+  background-color: #e9e9e9;
+  padding: 30px 41px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5b5b5b;
+    background-color: transparent;
+  }
+
+  span {
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 300;
+    color: #5b5b5b;
+    padding-left: 20px;
+  }
+}
+
+main[type="sm"] {
+  display: flex;
+  align-items: flex-end;
+  background-color: #e9e9e9;
+  padding: 20px 41px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5b5b5b;
+    background-color: transparent;
+  }
+
+  span {
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 300;
+    color: #5b5b5b;
+    padding-left: 20px;
+  }
+}

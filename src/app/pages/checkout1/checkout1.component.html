@@ -5,10 +5,7 @@
     <a routerLink="/">
       <h2>< Continue Shopping</h2>
     </a>
-    <div class="group1">
-      <div class="round"><p>1</p></div>
-      <h3>Check your cart</h3>
-    </div>
+    <app-steps step="1" text="Check your cart"></app-steps>
   </div>
 
   <div class="text2">
@@ -29,12 +26,9 @@
   />
 </main>
 
-<div class="total">
-  <h1>Total: 50€</h1>
-  <span>per month.</span>
-</div>
+<app-total type="lg" price="50" text="per month."></app-total>
 
 <footer>
   <app-button title="CLEAN CART" typeBtn="prev"></app-button>
-  <app-button title="NEXT" typeBtn="next"></app-button>
+  <app-button title="NEXT" typeBtn="next" routerLink="/checkout2"></app-button>
 </footer>

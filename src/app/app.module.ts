@@ -12,6 +12,8 @@ import { FormComponent } from './components/form/form.component';
 import { CheckoutBarComponent } from './components/checkout-bar/checkout-bar.component';
 import { AnnouncementComponent } from './components/announcement/announcement.component';
 import { Checkout2Component } from './pages/checkout2/checkout2.component';
+import { TotalComponent } from './components/total/total.component';
+import { StepsComponent } from './components/steps/steps.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { Checkout2Component } from './pages/checkout2/checkout2.component';
     CheckoutBarComponent,
     AnnouncementComponent,
     Checkout2Component,
+    TotalComponent,
+    StepsComponent,
   ],
   imports: [
     BrowserModule,
