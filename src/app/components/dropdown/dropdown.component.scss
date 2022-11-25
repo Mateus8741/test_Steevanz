@@ -1,0 +1,40 @@
+form {
+  background-color: #fff;
+  padding-bottom: 40px;
+  .form-group {
+    background-color: #fff;
+    label {
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 400;
+      color: #5b5b5b;
+    }
+
+    .form-input {
+      align-items: flex-end;
+      background-color: transparent;
+      border-bottom: 1px solid #1a1a1a;
+      margin-top: 10px;
+
+      width: 325px;
+      select {
+        width: 325px;
+        background-color: transparent;
+        border: none;
+        padding: 4px 0;
+
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: url(../../../assets/arrow_drop_down-24px.svg) no-repeat center right #FFF;
+        font-size: 15px;
+        padding-right: 20px;
+        cursor: pointer;
+      }
+      select:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<form
+  (ngSubmit)="submit()"
+  [formGroup]="dataForm"
+  #formDir="ngForm"
+  [attr.label]="label"
+  [attr.placeholder]="placeholder"
+  [attr.type]="type"
+>
+  <div class="form-group">
+    <label for="title">{{ label }}</label>
+    <div class="form-input">
+      <input
+        id="title"
+        type="text"
+        formControlName="title"
+        placeholder="{{ placeholder }}"
+        required
+      />
+    </div>
+    <div *ngIf="title.invalid && formDir.submitted" class="validation-error">
+      <p *ngIf="title.errors?.['required']">Campos obrigatórios!</p>
+    </div>
+  </div>
+</form>

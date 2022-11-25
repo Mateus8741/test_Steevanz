@@ -1,0 +1,164 @@
+form[type="sm"] {
+  background-color: #fff;
+  padding-bottom: 40px;
+  .form-group {
+    background-color: #fff;
+    label {
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 400;
+      color: #5b5b5b;
+    }
+
+    .form-input {
+      align-items: flex-end;
+      background-color: transparent;
+      border-bottom: 1px solid #1a1a1a;
+      margin-top: 10px;
+
+      width: 325px;
+      input {
+        width: 325px;
+        background-color: transparent;
+        border: none;
+        padding: 5px 0;
+      }
+      input:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+      }
+    }
+  }
+}
+
+form[type="x-sm"] {
+  background-color: #fff;
+  padding-bottom: 40px;
+  .form-group {
+    background-color: #fff;
+    label {
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 400;
+      color: #5b5b5b;
+    }
+
+    .form-input {
+      align-items: flex-end;
+      background-color: transparent;
+      border-bottom: 1px solid #1a1a1a;
+      margin-top: 10px;
+
+      width: 210px;
+      input {
+        width: 210px;
+        background-color: transparent;
+        border: none;
+        padding: 5px 0;
+      }
+      input:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+      }
+    }
+  }
+}
+
+form[type="md"] {
+  background-color: #fff;
+  padding-bottom: 40px;
+  .form-group {
+    background-color: #fff;
+    label {
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 400;
+      color: #5b5b5b;
+    }
+
+    .form-input {
+      align-items: flex-end;
+      background-color: transparent;
+      border-bottom: 1px solid #1a1a1a;
+      margin-top: 10px;
+
+      width: 440px;
+      input {
+        width: 440px;
+        background-color: transparent;
+        border: none;
+        padding: 5px 0;
+      }
+      input:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+      }
+    }
+  }
+}
+
+form[type="lg"] {
+  background-color: #fff;
+  padding-bottom: 40px;
+  .form-group {
+    background-color: #fff;
+    label {
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 400;
+      color: #5b5b5b;
+    }
+
+    .form-input {
+      align-items: flex-end;
+      background-color: transparent;
+      border-bottom: 1px solid #1a1a1a;
+      margin-top: 10px;
+
+      width: 735px;
+      input {
+        width: 735px;
+        background-color: transparent;
+        border: none;
+        padding: 5px 0;
+      }
+      input:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+      }
+    }
+  }
+}
+
+form[type="offer"] {
+  background-color: #fff;
+  padding-bottom: 40px;
+  .form-group {
+    background-color: #fff;
+    label {
+      background-color: transparent;
+      font-size: 24px;
+      font-weight: 400;
+      color: #5b5b5b;
+    }
+
+    .form-input {
+      align-items: flex-end;
+      background-color: transparent;
+      border-bottom: 1px solid #1a1a1a;
+      margin-top: 10px;
+
+      width: 505px;
+      input {
+        width: 505px;
+        background-color: transparent;
+        border: none;
+        padding: 5px 0;
+      }
+      input:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+      }
+    }
+  }
+}

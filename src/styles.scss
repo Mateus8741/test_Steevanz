@@ -16,3 +16,11 @@ body {
 a {
   text-decoration: none;
 }
+
+.validation-error {
+  background-color: #FFF;
+  p {
+    background-color: transparent;
+    color: #dc3545;
+  }
+}

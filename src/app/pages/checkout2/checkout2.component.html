@@ -3,4 +3,36 @@
 <app-total type="sm" price="50" text="per month"></app-total>
 <main>
   <app-steps step="2" text="YOUR DATA"></app-steps>
+  <div class="buttons">
+    <app-button typeBtn="next" title="PERSONAL"></app-button>
+    <app-button typeBtn="prev" title="COMPANY"></app-button>
+  </div>
+  <div class="forms">
+    <app-data-form label="Firstname(s)*" placeholder="Pedro" type="sm"></app-data-form>
+    <app-data-form label="Lastname(s)*" placeholder="Silva" type="sm"></app-data-form>
+    <app-data-form label="Email*" placeholder="pedros@gmail.com" type="sm"></app-data-form>
+    <app-data-form label="Phone*" placeholder="918 456 176" type="sm"></app-data-form>
+    <app-dropdown></app-dropdown>  
+    <app-data-form label="Location*" placeholder="Porto" type="sm"></app-data-form>
+    <aside>
+      <app-data-form label="Is this purchase an offer?" placeholder="Add a custom message" type="offer"></app-data-form>
+      <div class="aside-forms">
+        <app-data-form label="From*" placeholder="Sender's name*" type="x-sm"></app-data-form>
+        <app-data-form label="To*" placeholder="Receiver's name*" type="x-sm"></app-data-form>
+      </div>
+        <app-text-area></app-text-area>
+    </aside>
+  </div>
+  <div class="locate">
+    <app-data-form label="Address*" placeholder="Av. dos Aliados" type="lg"></app-data-form>
+    <div class="more">
+      <app-data-form label="Postal code*" placeholder="1234 - 456" type="sm"></app-data-form>
+      <app-data-form label="VAT number*" placeholder="122 334 455" type="sm"></app-data-form>
+    </div>
+  </div>
+  <!--  -->
+  <footer>
+    <app-button typeBtn="prev" title="PREVIOUS"></app-button>
+    <app-button typeBtn="next" title="NEXT" routerLink="/checkout3"></app-button>
+  </footer>
 </main>

@@ -14,6 +14,12 @@ import { AnnouncementComponent } from './components/announcement/announcement.co
 import { Checkout2Component } from './pages/checkout2/checkout2.component';
 import { TotalComponent } from './components/total/total.component';
 import { StepsComponent } from './components/steps/steps.component';
+import { DataFormComponent } from './components/data-form/data-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Checkout3Component } from './pages/checkout3/checkout3.component';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { HttpClientModule } from "@angular/common/http";
+import { TextAreaComponent } from './components/text-area/text-area.component'
 
 @NgModule({
   declarations: [
@@ -29,10 +35,17 @@ import { StepsComponent } from './components/steps/steps.component';
     Checkout2Component,
     TotalComponent,
     StepsComponent,
+    DataFormComponent,
+    Checkout3Component,
+    DropdownComponent,
+    TextAreaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

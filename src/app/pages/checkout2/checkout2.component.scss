@@ -2,6 +2,47 @@
   background-color: #fff;
 }
 
-main{
-    padding-left: 40px;
+main {
+  height: 110vh;
+  padding-left: 40px;
+
+  .buttons {
+    padding-top: 40px;
+    padding-bottom: 15px;
+  }
+  .buttons :nth-child(1) {
+    margin-right: 15px;
+  }
+
+  .forms {
+    display: grid;
+
+    aside {
+      color: #1a1a1a;
+      grid-column: 3;
+      grid-row: 1 / 4;
+
+      .aside-forms {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+    }
+  }
+
+  .locate{
+    .more{
+        display: grid;
+        grid-template-columns: 1fr 2.4fr;
+    }
+  }
+}
+footer {
+  display: grid;
+  grid-template-columns: 7fr 7fr;
+  align-items: center;
+  padding: 13px 40px;
+}
+
+footer :nth-child(2) {
+  grid-column-end: 4;
 }
