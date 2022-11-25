@@ -1,0 +1,30 @@
+button {
+  width: auto;
+  padding: 5px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 33px;
+}
+
+button[typeBtn="next"] {
+  background-color: #1a1a1a;
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+button[typeBtn="prev"] {
+  background-color: transparent;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+button[typeBtn="sub"] {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
