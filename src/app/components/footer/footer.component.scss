@@ -1,0 +1,45 @@
+footer {
+  max-width: 1440px;
+  height: 166px;
+  display: grid;
+  grid-template-columns: 8fr 6fr 6fr;
+
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+  padding: 40px 47px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #1a1a1a;
+  filter: drop-shadow(0px -4px 10px rgba(0, 0, 0, 0.25));
+
+  .links {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 15px;
+
+    list-style: none;
+    font-size: 16px;
+    a {
+      color: #fff;
+      line-height: 18.75px;
+    }
+  }
+
+  .social-media ul {
+    display: flex;
+    font-size: 16px;
+
+    list-style: none;
+
+    justify-content: flex-end;
+    li {
+      margin-left: 22px;
+    }
+  }
+}

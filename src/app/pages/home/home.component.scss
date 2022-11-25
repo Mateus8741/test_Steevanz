@@ -1,0 +1,31 @@
+main{
+    display: grid;
+    grid-template: 1fr 1fr;
+    
+    padding: 100px 40px;
+    width: 630px;
+
+    color: #FFF;
+    .text{
+        margin-bottom: 50px;
+
+        h1{
+            font-size: 48px;
+            line-height: 20px;
+            font-family: "Cormorant";
+            margin-bottom: 30px;
+        }
+
+        p{
+            font-size: 23px;
+            line-height: 29px;
+            font-weight: 300;
+
+        }
+    }
+
+    .footer-main{
+        display: flex;
+        justify-content: space-between;
+    }
+}
