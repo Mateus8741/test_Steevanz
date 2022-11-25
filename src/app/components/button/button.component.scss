@@ -4,11 +4,13 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 33px;
+  cursor: pointer;
 }
 
 button[typeBtn="next"] {
   background-color: #1a1a1a;
-  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  color: #FFF;
   font-size: 20px;
   font-weight: 400;
 }

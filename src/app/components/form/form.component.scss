@@ -1,0 +1,16 @@
+form {
+  .form-group {
+    background-color: #fff;
+    label {
+      background-color: transparent;
+    }
+    input {
+      width: 440px;
+      background-color: transparent;
+      margin-top: 15px;
+      border: none;
+      border-bottom: 1px solid #1a1a1a;
+      padding: 5px 0;
+    }
+  }
+}

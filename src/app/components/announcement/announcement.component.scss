@@ -1,0 +1,18 @@
+main {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #c6b784;
+
+  p {
+    background-color: transparent;
+    font-size: 20px;
+  }
+
+  img {
+    background-color: transparent;
+    padding-right: 10px;
+  }
+}

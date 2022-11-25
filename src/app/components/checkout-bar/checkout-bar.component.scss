@@ -1,0 +1,133 @@
+nav {
+  max-width: 1440px;
+  display: grid;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+
+  background-color: #1a1a1a;
+  border-top: 1px solid rgba(0, 0, 0, 0.226);
+
+  h1 {
+    color: #fff;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .circle1 {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 15px;
+    p {
+      background-color: transparent;
+      text-align: center;
+      padding-top: 5px;
+    }
+  }
+  .circle2 {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 15px;
+    p {
+      background-color: transparent;
+      text-align: center;
+      padding-top: 5px;
+    }
+  }
+  .circle3 {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 15px;
+    p {
+      background-color: transparent;
+      text-align: center;
+      padding-top: 5px;
+    }
+  }
+  .circle4 {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 15px;
+    p {
+      background-color: transparent;
+      text-align: center;
+      padding-top: 5px;
+    }
+  }
+
+  .menu {
+    grid-column-end: 3;
+    display: flex;
+    padding-right: 30px;
+
+    li {
+      list-style: none;
+      padding: 0 22px;
+    }
+    .circle1[type="light1"] {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      color: #1a1a1a;
+      border-radius: 15px;
+      p {
+        background-color: transparent;
+        text-align: center;
+        padding-top: 5px;
+      }
+    }
+    .circle2[type="light2"] {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      color: #1a1a1a;
+      border-radius: 15px;
+      p {
+        background-color: transparent;
+        text-align: center;
+        padding-top: 5px;
+      }
+    }
+    .circle3[type="light3"] {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      color: #1a1a1a;
+      border-radius: 15px;
+      p {
+        background-color: transparent;
+        text-align: center;
+        padding-top: 5px;
+      }
+    }
+    .circle4[type="light4"] {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      color: #1a1a1a;
+      border-radius: 15px;
+      p {
+        background-color: transparent;
+        text-align: center;
+        padding-top: 5px;
+      }
+    }
+  }
+}

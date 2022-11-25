@@ -8,6 +8,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { Checkout1Component } from './pages/checkout1/checkout1.component';
 import { ButtonComponent } from './components/button/button.component';
+import { FormComponent } from './components/form/form.component';
+import { CheckoutBarComponent } from './components/checkout-bar/checkout-bar.component';
+import { AnnouncementComponent } from './components/announcement/announcement.component';
+import { Checkout2Component } from './pages/checkout2/checkout2.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +20,15 @@ import { ButtonComponent } from './components/button/button.component';
     FooterComponent,
     HomeComponent,
     Checkout1Component,
-    ButtonComponent
+    ButtonComponent,
+    FormComponent,
+    CheckoutBarComponent,
+    AnnouncementComponent,
+    Checkout2Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
