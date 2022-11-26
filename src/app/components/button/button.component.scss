@@ -10,7 +10,7 @@ button {
 button[typeBtn="next"] {
   background-color: #1a1a1a;
   border: 1px solid #1a1a1a;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-weight: 400;
 }
@@ -25,6 +25,14 @@ button[typeBtn="prev"] {
 
 button[typeBtn="sub"] {
   background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+button[typeBtn="home"] {
+  background-color: transparent;
+  padding: 5px 283px;
   border: 1px solid #fff;
   color: #fff;
   font-size: 20px;

@@ -20,7 +20,8 @@ import { Checkout3Component } from './pages/checkout3/checkout3.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { HttpClientModule } from "@angular/common/http";
 import { TextAreaComponent } from './components/text-area/text-area.component';
-import { CheckBoxComponent } from './components/check-box/check-box.component'
+import { CheckBoxComponent } from './components/check-box/check-box.component';
+import { FinalCheckouComponent } from './pages/final-checkou/final-checkou.component'
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { CheckBoxComponent } from './components/check-box/check-box.component'
     DropdownComponent,
     TextAreaComponent,
     CheckBoxComponent,
+    FinalCheckouComponent,
   ],
   imports: [
     BrowserModule,

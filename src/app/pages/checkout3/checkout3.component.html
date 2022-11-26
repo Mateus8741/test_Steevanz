@@ -1,1 +1,52 @@
-<p>checkout3 works!</p>
+<app-header></app-header>
+<app-checkout-bar type="light3"></app-checkout-bar>
+<app-total
+  type="sm"
+  price="31,98"
+  text="26,99€ (Product) + 4,99€ (Delivery Fee)"
+></app-total>
+<main>
+  <div class="content">
+    <app-steps step="4" text="Payment"></app-steps>
+    <div class="card-details">
+      <img src="../../../assets/Card.svg" alt="Card" />
+      <p>Pay securely with your credit card.</p>
+      <div>
+        <select name="resume" id="1">
+          <option value="1">Resume</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="form">
+    <app-data-form
+      type="md"
+      label="Credit Card*"
+      placeholder="1234 1234 1234 1234"
+    ></app-data-form>
+    <div class="small">
+      <app-data-form
+        type="x-sm"
+        label="Expiration Date*"
+        placeholder="05/24"
+      ></app-data-form>
+      <app-data-form type="x-sm" label="CVC*" placeholder="123"></app-data-form>
+    </div>
+  </div>
+  <app-check-box
+    label="Add a delivery address different from the billing address"
+  ></app-check-box>
+  <footer>
+    <app-button
+      typeBtn="prev"
+      title="PREVIOUS"
+      routerLink="/checkout2"
+    ></app-button>
+    <app-button
+      typeBtn="next"
+      title="NEXT"
+      routerLink="/checkout4"
+    ></app-button>
+  </footer>
+</main>
+<app-footer></app-footer>

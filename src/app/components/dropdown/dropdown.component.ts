@@ -8,7 +8,7 @@ import { ListService } from 'src/app/services/list.service';
   styleUrls: ['./dropdown.component.scss'],
 })
 export class DropdownComponent {
-  countries: Countries[] = [];
+  a: Countries[] = [];
 
   constructor(public listService: ListService) {}
 
@@ -19,7 +19,8 @@ export class DropdownComponent {
   getCountriesName() {
     this.listService.getCountries().subscribe((data: any) => {
       data.forEach((country: any) => {
-        console.log(country.name?.common);
+        const countries = country.name.common;
+        console.log(countries);
       });
     });
   }

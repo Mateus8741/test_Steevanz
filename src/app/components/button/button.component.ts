@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./button.component.scss'],
 })
 export class ButtonComponent {
-  @Input() typeBtn!: 'next' | 'prev' | 'sub';
+  @Input() typeBtn!: 'next' | 'prev' | 'sub'| 'home';
   @Input() title!: string;
 }

@@ -1,14 +1,10 @@
 <form>
   <div class="form-group">
     <label for="title">Country*</label>
-    <div class="form-input">
-      <select name="country" id="">
-        <option
-          value="1"
-          *ngFor="let country of countries"
-          [value]="country.name"
-        >
-          {{ country }}
+    <div class="form-input" >
+      <select name="country" id="1" *ngFor="let item of a">
+        <option value="1">
+          {{ item.name }}
         </option>
       </select>
     </div>

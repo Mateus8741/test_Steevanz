@@ -10,7 +10,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class DataFormComponent {
   @Input() label!: string;
   @Input() placeholder!: string;
-  @Input() type!: 'sm' | 'x-sm' | 'md' | 'lg' | 'offer';
+  @Input() type!: 'sm' | 'x-sm'| 'xxx-sm' | 'md' | 'lg' | 'offer';
 
   dataForm!: FormGroup;
 

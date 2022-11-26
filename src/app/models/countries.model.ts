@@ -1,3 +1,3 @@
 export class Countries {
-  name!: any[];
+  name!: any[]
 }
