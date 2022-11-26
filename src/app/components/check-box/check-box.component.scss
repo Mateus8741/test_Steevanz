@@ -1,0 +1,17 @@
+form {
+  background-color: #fff;
+  color: #1a1a1a;
+
+  display: flex;
+  input {
+    width: 20px;
+    height: 20px;
+  }
+
+  label {
+    background-color: transparent;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

@@ -19,7 +19,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Checkout3Component } from './pages/checkout3/checkout3.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { HttpClientModule } from "@angular/common/http";
-import { TextAreaComponent } from './components/text-area/text-area.component'
+import { TextAreaComponent } from './components/text-area/text-area.component';
+import { CheckBoxComponent } from './components/check-box/check-box.component'
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { TextAreaComponent } from './components/text-area/text-area.component'
     Checkout3Component,
     DropdownComponent,
     TextAreaComponent,
+    CheckBoxComponent,
   ],
   imports: [
     BrowserModule,
