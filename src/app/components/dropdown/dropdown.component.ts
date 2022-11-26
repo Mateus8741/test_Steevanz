@@ -8,7 +8,7 @@ import { ListService } from 'src/app/services/list.service';
   styleUrls: ['./dropdown.component.scss'],
 })
 export class DropdownComponent {
-  a: Countries[] = [];
+  countries: Countries[] = [];
 
   constructor(public listService: ListService) {}
 
