@@ -6,26 +6,33 @@
   text="26,99€ (Product) + 4,99€ (Delivery Fee)"
 ></app-total>
 <main>
-  <div class="content">
-    <app-steps step="4" text="Payment"></app-steps>
-    <div class="card-details">
-      <img src="../../../assets/Card.svg" alt="Card" />
-      <p>Pay securely with your credit card.</p>
-      <div>
+  <div class="grid">
+    <app-steps class="col-10" step="4" text="Payment"></app-steps>
+    <div class="grid">
+      <div class="md:col lg:col-6">
+        <div class="grid">
+          <img src="../../../assets/Card.svg" alt="Card" />
+          <p class="pt-1">Pay securely with your credit card.</p>
+        </div>
+      </div>
+      <div class="md:col lg:col-6">
         <select name="resume" id="1">
           <option value="1">Resume</option>
         </select>
       </div>
     </div>
   </div>
-  <div class="form">
-    <app-data-form
-      type="md"
-      label="Credit Card*"
-      placeholder="1234 1234 1234 1234"
-    ></app-data-form>
-    <div class="small">
+  <div class="grid">
+    <div class="col-11">
       <app-data-form
+        type="md"
+        label="Credit Card*"
+        placeholder="1234 1234 1234 1234"
+      ></app-data-form>
+    </div>
+    <div class="grid">
+      <app-data-form
+      class="mr-4"
         type="x-sm"
         label="Expiration Date*"
         placeholder="05/24"

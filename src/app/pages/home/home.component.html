@@ -1,23 +1,35 @@
 <app-header></app-header>
 
 <main>
-  <div class="text">
-    <h1>FRONTEND DEVELOPER</h1>
-    <h2>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s.
-    </h2>
-    <div class="footer-main">
-      <div class="price">
-        <h2>50€<span>per month</span></h2>
+  <div class="px-4">
+    <div class="grid">
+      <div class="col-6 pr-2">
+        <h1>FRONTEND DEVELOPER</h1>
+        <h2>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </h2>
+        <div class="pt-8">
+          <div class="grid">
+            <div class="col-7">
+              <h2>50€<span>per month</span></h2>
+            </div>
+            <app-button
+            title="SUBSCRIBE"
+            typeBtn="sub"
+            routerLink="/checkout1"
+            ></app-button>
+          </div>
+        </div>
       </div>
-      <app-button title="SUBSCRIBE" typeBtn="sub" routerLink="/checkout1"></app-button>
+      <div class="pt-8">
+        <img
+        src="../../../../assets/undraw_devices_re_dxae 1.svg"
+        alt="Figura aleatória"
+        />
+      </div>
     </div>
   </div>
-  <img
-    src="../../../../assets/undraw_devices_re_dxae 1.svg"
-    alt="Figura aleatória"
-  />
+  <app-footer></app-footer>
 </main>
-<app-footer></app-footer>

@@ -20,3 +20,9 @@ nav {
     }
   }
 }
+
+@media (max-width: 640px) {
+  .menu {
+    display: none;
+  }
+}

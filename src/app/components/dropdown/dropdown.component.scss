@@ -31,6 +31,10 @@ form {
         font-size: 15px;
         padding-right: 20px;
         cursor: pointer;
+
+        option {
+          background-color: transparent;
+        }
       }
       select:focus {
         box-shadow: 0 0 0 0;

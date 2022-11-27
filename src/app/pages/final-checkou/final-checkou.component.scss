@@ -1,33 +1,44 @@
-#logo {
-  padding: 192px 0 88px 40px;
-}
-main {
-  padding: 0 40px;
+* {
   color: #fff;
-  .messages {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+}
 
-    .texts {
-      margin-right: 50px;
-      margin-top: 70px;
-      h1 {
-        font-family: "Cormorant";
-        font-size: 96px;
-        font-weight: 700;
-        padding-bottom: 30px;
-      }
-      h3 {
-        font-family: "Cormorant";
-        font-size: 38px;
-        font-weight: 700;
-        padding-bottom: 30px;
-      }
-      p {
-        padding: 0 60px 30px 0;
-        font-size: 20px;
-        font-weight: 300;
-      }
-    }
+main {
+  padding: 0 30px;
+}
+
+#logo {
+  padding: 192px 0 88px 0;
+}
+
+h1 {
+  font-family: "Cormorant";
+  font-size: 96px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+h3 {
+  font-family: "Cormorant";
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+p {
+  max-width: 625px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 15px;
+  }
+  #logo{
+    padding: 70px 0 58px 0;
   }
 }

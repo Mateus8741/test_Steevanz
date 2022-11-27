@@ -10,6 +10,8 @@ import { ListService } from 'src/app/services/list.service';
 export class DropdownComponent {
   countries: Countries[] = [];
 
+  selectedCountry!: Countries;
+
   constructor(public listService: ListService) {}
 
   ngOnInit(): void {
@@ -18,10 +20,7 @@ export class DropdownComponent {
 
   getCountriesName() {
     this.listService.getCountries().subscribe((data: any) => {
-      data.forEach((country: any) => {
-        const countries = country.name.common;
-        console.log(countries);
-      });
+      this.countries = data;
     });
   }
 }

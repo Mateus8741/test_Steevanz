@@ -18,11 +18,12 @@ import { DataFormComponent } from './components/data-form/data-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Checkout3Component } from './pages/checkout3/checkout3.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 import { TextAreaComponent } from './components/text-area/text-area.component';
 import { CheckBoxComponent } from './components/check-box/check-box.component';
-import { FinalCheckouComponent } from './pages/final-checkou/final-checkou.component'
-
+import { FinalCheckouComponent } from './pages/final-checkou/final-checkou.component';
+import { AccordionModule } from 'primeng/accordion';
+import {PanelModule} from 'primeng/panel';
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,8 +51,10 @@ import { FinalCheckouComponent } from './pages/final-checkou/final-checkou.compo
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    AccordionModule,
+    PanelModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

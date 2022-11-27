@@ -42,3 +42,16 @@ footer {
     }
   }
 }
+
+@media (max-width: 640px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+    }
+  }
+}

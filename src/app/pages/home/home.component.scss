@@ -1,47 +1,39 @@
-main {
-  height: 80vh;
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: 0.7fr 0.9fr;
-  grid-auto-rows: auto;
-  gap: 10px;
-
-  padding: 100px 40px;
-  align-items: center;
+* {
   color: #fff;
-  background-color: #1a1a1a;
+}
 
+main{
+  padding-top: 185px;
+}
 
-  .text {
-    h1 {
-      font-size: 48px;
-      font-family: "Cormorant";
-      padding-bottom: 30px;
-    }
-
-    h2 {
-      font-size: 23px;
-      line-height: 29px;
-      font-weight: 300;
-    }
+@media (max-width: 1246px) {
+  main {
+    height: 105vh;
+    padding-top: 30px;
   }
+}
+@media (max-width: 923px) {
+  main {
+    height: 140vh;
+  }
+}
 
-  .footer-main {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 10px;
-    grid-auto-rows: auto;
-    margin-top: 80px;
-    .price {
-      span {
-        font-size: 16px;
-        font-weight: 200;
-        color: rgba(255, 255, 255, 0.705);
-        margin-left: 20px;
-      }
-    }
-  }
-  img {
-    margin-left: 76px;
-  }
+
+h1 {
+  font-size: 48px;
+  font-family: "Cormorant";
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 29px;
+  font-weight: 300;
+}
+
+span {
+  font-size: 16px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.705);
+  margin-left: 20px;
 }

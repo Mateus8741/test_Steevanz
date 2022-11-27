@@ -1,3 +1,5 @@
 export class Countries {
-  name!: any[]
+  name!: {
+    common: any[];
+  };
 }
