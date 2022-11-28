@@ -1,16 +1,3 @@
-<!-- <form>
-  <div class="form-group">
-    <label for="title">Country*</label>
-    <div class="form-input">
-      <select name="country" id="0" [(ngModel)]="selectedCountry">
-        <option *ngFor="let country of countries" [value]="country.name.common">
-          {{ country.name.common }}
-        </option>
-      </select>
-    </div>
-  </div>
-</form> -->
-
 <p-dropdown
   [options]="countries"
   [(ngModel)]="selectedCountry"
