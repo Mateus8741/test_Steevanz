@@ -1,5 +1,4 @@
 footer {
-  max-width: 1440px;
   display: grid;
   grid-template-columns: 8fr 6fr 6fr;
 
@@ -9,10 +8,7 @@ footer {
 
   padding: 20px 47px;
 
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
 
   background-color: #1a1a1a;
   filter: drop-shadow(0px -4px 10px rgba(0, 0, 0, 0.25));

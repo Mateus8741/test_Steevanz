@@ -3,18 +3,8 @@
   margin: 0;
 }
 
-@media (max-width: 859px) {
-  main {
-    height: 80vh;
-  }
-}
-
-main {
-  padding-left: 30px;
-}
-
 select {
-  width: 555px;
+  width: 100%;
   padding: 11px 10px;
   border: none;
   border-radius: 5px;

@@ -2,22 +2,9 @@
   color: #fff;
 }
 
-main{
-  padding-top: 185px;
+main {
+  padding: 200px 190px;
 }
-
-@media (max-width: 1246px) {
-  main {
-    height: 105vh;
-    padding-top: 30px;
-  }
-}
-@media (max-width: 923px) {
-  main {
-    height: 140vh;
-  }
-}
-
 
 h1 {
   font-size: 48px;

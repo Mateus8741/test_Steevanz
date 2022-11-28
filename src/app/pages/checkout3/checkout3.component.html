@@ -1,27 +1,32 @@
-<app-header></app-header>
-<app-checkout-bar type="light3"></app-checkout-bar>
-<app-total
-  type="sm"
-  price="31,98"
-  text="26,99€ (Product) + 4,99€ (Delivery Fee)"
-></app-total>
 <main>
+  <div class="pt-6">
+    <app-checkout-bar type="light3"></app-checkout-bar>
+    <app-announcement></app-announcement>
+    <app-total
+      type="sm"
+      price="31,98"
+      text="26,99€ (Product) + 4,99€ (Delivery Fee)"
+      ></app-total>
+  </div>
+  <div class="px-4">
   <div class="grid">
-    <app-steps class="col-10" step="4" text="Payment"></app-steps>
-    <div class="grid">
-      <div class="md:col lg:col-6">
-        <div class="grid">
-          <img src="../../../assets/Card.svg" alt="Card" />
-          <p class="pt-1">Pay securely with your credit card.</p>
+      <app-steps class="col-10" step="4" text="Payment"></app-steps>
+      <div class="grid">
+        <div class="md:col lg:col-14">
+          <div class="grid">
+            <img src="../../../assets/Card.svg" alt="Card" />
+            <p class="pt-1">Pay securely with your credit card.</p>
+          </div>
         </div>
       </div>
-      <div class="md:col lg:col-6">
+      <div class="md:col lg:col-7">
         <select name="resume" id="1">
           <option value="1">Resume</option>
         </select>
       </div>
     </div>
   </div>
+  <div class="px-4">
   <div class="grid">
     <div class="col-11">
       <app-data-form
@@ -40,20 +45,24 @@
       <app-data-form type="x-sm" label="CVC*" placeholder="123"></app-data-form>
     </div>
   </div>
+</div>
+<div class="px-4">
   <app-check-box
-    label="Add a delivery address different from the billing address"
+  label="Add a delivery address different from the billing address"
   ></app-check-box>
+</div>
+<div class="px-4">
   <footer>
     <app-button
-      typeBtn="prev"
-      title="PREVIOUS"
-      routerLink="/checkout2"
+    typeBtn="prev"
+    title="PREVIOUS"
+    routerLink="/checkout2"
     ></app-button>
     <app-button
-      typeBtn="next"
-      title="NEXT"
-      routerLink="/checkout4"
+    typeBtn="next"
+    title="NEXT"
+    routerLink="/checkout4"
     ></app-button>
   </footer>
+</div>
 </main>
-<app-footer></app-footer>
