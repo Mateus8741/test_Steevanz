@@ -21,6 +21,9 @@ nav {
       list-style: none;
       padding: 0 43px;
     }
+    li:hover {
+      filter: invert(20%);
+    }
   }
 }
 

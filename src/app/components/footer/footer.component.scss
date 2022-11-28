@@ -24,6 +24,9 @@ footer {
       color: #fff;
       line-height: 18.75px;
     }
+    a:hover {
+      text-decoration: underline;
+    }
   }
 
   .social-media ul {
@@ -35,6 +38,9 @@ footer {
     justify-content: flex-end;
     li {
       margin-left: 22px;
+    }
+    li:hover {
+      filter: invert(20%);
     }
   }
 }

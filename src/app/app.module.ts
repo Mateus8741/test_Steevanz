@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,6 +25,11 @@ import { CheckBoxComponent } from './components/check-box/check-box.component';
 import { FinalCheckouComponent } from './pages/final-checkou/final-checkou.component';
 import { AccordionModule } from 'primeng/accordion';
 import {PanelModule} from 'primeng/panel';
+import {DropdownModule} from 'primeng/dropdown';
+import {InputTextModule} from 'primeng/inputtext';
+import {InputTextareaModule} from 'primeng/inputtextarea';
+import {RadioButtonModule} from 'primeng/radiobutton';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,6 +59,11 @@ import {PanelModule} from 'primeng/panel';
     HttpClientModule,
     AccordionModule,
     PanelModule,
+    DropdownModule,
+    BrowserAnimationsModule,
+    InputTextModule,
+    InputTextareaModule,
+    RadioButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],

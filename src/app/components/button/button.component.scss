@@ -15,12 +15,24 @@ button[typeBtn="next"] {
   font-weight: 400;
 }
 
+button[typeBtn="next"]:hover {
+  background-color: white;
+  color: #1a1a1a;
+  transition: all 0.5s;
+}
+
 button[typeBtn="prev"] {
   background-color: transparent;
   border: 1px solid #1a1a1a;
   color: #1a1a1a;
   font-size: 20px;
   font-weight: 400;
+}
+
+button[typeBtn="prev"]:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+  transition: linear 0.5s;
 }
 
 button[typeBtn="sub"] {
@@ -30,6 +42,13 @@ button[typeBtn="sub"] {
   font-size: 20px;
   font-weight: 400;
 }
+
+button[typeBtn="sub"]:hover {
+  background-color: white;
+  color: #1a1a1a;
+  transition: linear 0.5s;
+}
+
 button[typeBtn="home"] {
   background-color: transparent;
   padding: 5px 283px;
@@ -37,4 +56,10 @@ button[typeBtn="home"] {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
+}
+
+button[typeBtn="home"]:hover {
+  background-color: white;
+  color: #1a1a1a;
+  transition: linear 0.5s;
 }

@@ -1,14 +1,12 @@
 <form>
-  <div class="form-group">
-    <label for="title">Message</label>
-    <div class="form-input">
-      <textarea
-        id="title"
-        type="text"
-        formControlName="title"
-        placeholder="Write your message here"
-        required
-      ></textarea>
-    </div>
-  </div>
+  <span class="p-float-label">
+    <textarea
+      id="float-input"
+      rows="2"
+      cols="60"
+      placeholder="Write your message here"
+      pInputTextarea
+    ></textarea>
+    <label for="float-input">Message</label>
+  </span>
 </form>
