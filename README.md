@@ -1,6 +1,6 @@
 # Steevanz
 
-![image](https://user-images.githubusercontent.com/62652109/205195725-e39cc8e3-62e0-479a-bce2-7462dd239d11.png)
+![image](https://user-images.githubusercontent.com/62652109/205197479-039acc20-f869-4cd8-a292-23837ba1416b.png)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
